@@ -1,0 +1,34 @@
+.about_post {
+    color: rgba(51, 48, 48, 0.46);
+    font-family: Arial, cursive;
+    font-size: medium;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    margin-left: 1em;
+}
+.author_post {
+    color: black;
+    font-family: Arial, cursive;
+    font-size: x-large;
+    margin-bottom: 0.1em;
+}
+
+.post-text {
+    color: rgba(0, 0, 0, 0.82);
+    font-family: "Arial", monospace;
+    font-size: 20px;
+    margin-left: 0.6em;
+}
+
+.post {
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+.label {
+    margin-left: 0.5em;
+}
+
+.footer_label {
+    font-size: 20px;
+}

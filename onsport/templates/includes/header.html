@@ -1,0 +1,35 @@
+{% load static %}
+<header>
+  <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #8D40FF">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=" {% url 'blog:index' %}">
+        <span style="color:white"><span style="color:#ff4062">still</span>Sport</span>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <a class="nav-item nav-link footer_label" style="color: white" href="{% url 'blog:blog_list' %}">Блог</a>
+        <a class="nav-item nav-link footer_label" style="color: white" href="">Авторы</a>
+        <a class="nav-item nav-link footer_label" style="color: white" href="">Форум</a>
+        <a class="nav-item nav-link footer_label" style="color: white" href="">Тренировки</a>
+      </div>
+      <a class="nav-item nav-link footer_label" style="color: white" href="">Войти</a>
+      <a class="nav-item nav-link footer_label" style="color: white" href="">Регистрация</a>
+<!--      <ul class="nav nav-pills">-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" style="color: white" href="">Блог</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" style="color: white" href="">Авторы</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" style="color: white" href="">Форум</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" style="color: white" href="">Тренировки</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" style="color: white" href="">Войти</a>-->
+<!--        </li>-->
+<!--      </ul>-->
+    </div>
+  </nav>
+</header>

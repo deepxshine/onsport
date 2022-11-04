@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %} onSport {% endblock %}
+{% block content %}
+<h1>Свежие записи</h1>
+<div class="container p-1">
+  {% for post in posts %}
+  <div class="post">
+    <p class="author_post"><b>{% if post.author.get_full_name %}{{post.author.get_full_name}}
+      {% else %}{{ post.author }}{% endif %}</b></p>
+    <p class="about_post">
+      {{ post.pub_date }}<br>
+      {% if post.category %}В категории: {{ post.category }}{% endif %}
+    </p>
+    <article>
+      <h5 class="label"> {{ post.title }}</h5>
+      <p class="post-text">{{ post.text }}</p>
+    </article>
+    <hr>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
